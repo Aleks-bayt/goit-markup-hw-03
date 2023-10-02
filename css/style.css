@@ -53,29 +53,28 @@ address {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px 0 15px;
- 
+  padding: 0 15px;
+  outline: 2px solid red;
 }
-/*  outline: 2px solid red; */
-.section{
+/*   */
+.section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
 /* =============== Header =============== */
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
 }
-.header-container{
+.header-container {
+  padding: 24px 0;
   display: flex;
   gap: 332px;
 }
 .heder-nav {
   display: flex;
   align-items: center;
-  }
+}
 .heder-logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -138,17 +137,15 @@ address {
   color: #404bbf;
 }
 
-
 /* =============== hero ================= */
 .main {
 }
 
-.hero { 
+.hero {
   padding: 188px 0;
-   background-color: #2e2f42;
+  background-color: #2e2f42;
 }
 .hero-container {
-  
 }
 .hero-title {
   color: #fff;
@@ -184,7 +181,6 @@ address {
 /* ======== Strengths ======== */
 
 .strengths {
-
 }
 .Strengths-title {
 }
@@ -194,7 +190,6 @@ address {
 }
 .strengths-list {
   width: calc((100% - 72px) / 4);
-  
 }
 .strengths-list-title {
   color: #2e2f42;
@@ -235,9 +230,9 @@ address {
 .team-list-item {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
-  width: calc((100% - 72px) / 4); 
+  width: calc((100% - 72px) / 4);
 }
-.team-item{
+.team-item {
   padding: 32px 0;
 }
 .team-item-imag {
@@ -248,7 +243,7 @@ address {
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
   color: #2e2f42;
-  text-align: center; 
+  text-align: center;
   margin-bottom: 8px;
 }
 .team-item-text {
@@ -278,16 +273,15 @@ address {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
-  row-gap: 48px; 
+  row-gap: 48px;
 }
 .porfolio-list-item {
   width: calc((100% - 48px) / 3);
 }
-.portfolio-item{
+.portfolio-item {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-
 }
 .porfolio-item-imag {
 }
@@ -322,7 +316,7 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 17px;
-  display: inline-block; 
+  display: inline-block;
   margin-bottom: 16px;
 }
 .footer-logo-color {
